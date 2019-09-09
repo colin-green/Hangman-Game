@@ -1,0 +1,18 @@
+div {
+    font-size: 25px;
+    margin: 20px 0px 20px 0px;
+}
+
+img {
+    width: 250px;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    background-color: darkgreen;
+    color: #e0dbd1;
+    text-align: center;
+}

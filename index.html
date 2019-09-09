@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman!</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body onkeypress="getKey(event)">
+    <header>
+        <h1>Welcome to the Hangman Game!!!</h1>
+        <img src="assets/images/81xt2+PD0IL.png" alt="Hangman">
+    </header>
+    <hr>
+    <h2>Use the keyboard to try to guess letters of the word I'm thinking of!</h2>
+
+    <div id="wordDisplay"></div>
+    <div id="winCount"></div>
+    <div id="lossCount"></div>
+    <div id="guessesLeft"></div>
+    <div id="guessesSoFar"></div>
+
+    <footer>
+        (Make sure caps lock is turned off!)
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
